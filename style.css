@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  margin: 10vh auto;
+}
+.w30 {
+  width: 30vw;
+}
+.h50 {
+  height: 50vh;
+}
+
+.flexbox {
+  display: flex;
+  background-color: #254F6E;
+}
+.flexbox--direction-column {
+  flex-direction: column;
+}
+.flexbox--wrap {
+  flex-wrap: wrap;
+}
+.flexbox--justify-content-center {
+  justify-content: center;
+}
+.flexbox--justify-content-space-between {
+  justify-content: space-between;
+}
+.flexbox--justify-content-space-around {
+  justify-content: space-around;
+}
+.flexbox--justify-content-space-evenly {
+  justify-content: space-evenly;
+}
+.flexbox--align-content-center {
+  align-content: center;
+}
+.flexbox--align-content-space-between {
+  align-content: space-between;
+}
+.flexbox--align-content-space-around {
+  align-content: space-around;
+}
+.flexbox--align-content-space-evenly {
+  align-content: space-evenly;
+}
+.flexbox--align-items-center {
+  align-items: center;
+}
+.flexbox--align-items-start {
+  align-items: flex-start;
+}
+.flexbox--align-items-end {
+  align-items: flex-end;
+}
+
+.flexbox__item {
+  background-color: #00A9DE;
+  padding: 1rem;
+}

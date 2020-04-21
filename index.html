@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS flexbox</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <section>
+    <div class="flexbox">
+      <div class="flexbox__item">ようこそ</div>
+      <div class="flexbox__item">特集</div>
+      <div class="flexbox__item">製品一覧</div>
+      <div class="flexbox__item">事例</div>
+      <div class="flexbox__item">お知らせ</div>
+      <div class="flexbox__item">私たちについて</div>
+    </div>
+  </section>
+
+  <section>
+    <h1>flex-direction: column</h1>
+    <div class="flexbox flexbox--direction-column">
+      <div class="flexbox__item">ようこそ</div>
+      <div class="flexbox__item">特集</div>
+      <div class="flexbox__item">製品一覧</div>
+      <div class="flexbox__item">事例</div>
+      <div class="flexbox__item">お知らせ</div>
+      <div class="flexbox__item">私たちについて</div>
+    </div>
+  </section>
+
+  <section>
+    <h1>flex-wrap: wrap</h1>
+    <div class="flexbox flexbox--wrap">
+      <div class="flexbox__item w30">ようこそ</div>
+      <div class="flexbox__item w30">特集</div>
+      <div class="flexbox__item w30">製品一覧</div>
+      <div class="flexbox__item w30">事例</div>
+      <div class="flexbox__item w30">お知らせ</div>
+      <div class="flexbox__item w30">私たちについて</div>
+    </div>
+  </section>
+
+  <section>
+    <h1>justify-content: center</h1>
+    <div class="flexbox flexbox--justify-content-center">
+      <div class="flexbox__item">ようこそ</div>
+      <div class="flexbox__item">特集</div>
+      <div class="flexbox__item">製品一覧</div>
+      <div class="flexbox__item">事例</div>
+      <div class="flexbox__item">お知らせ</div>
+      <div class="flexbox__item">私たちについて</div>
+    </div>
+  </section>
+  <section>
+    <h1>justify-content: space-between</h1>
+    <div class="flexbox flexbox--justify-content-space-between">
+      <div class="flexbox__item">ようこそ</div>
+      <div class="flexbox__item">特集</div>
+      <div class="flexbox__item">製品一覧</div>
+      <div class="flexbox__item">事例</div>
+      <div class="flexbox__item">お知らせ</div>
+      <div class="flexbox__item">私たちについて</div>
+    </div>
+  </section>
+  <section>
+    <h1>justify-content: space-around</h1>
+    <div class="flexbox flexbox--justify-content-space-around">
+      <div class="flexbox__item">ようこそ</div>
+      <div class="flexbox__item">特集</div>
+      <div class="flexbox__item">製品一覧</div>
+      <div class="flexbox__item">事例</div>
+      <div class="flexbox__item">お知らせ</div>
+      <div class="flexbox__item">私たちについて</div>
+    </div>
+  </section>
+  <section>
+    <h1>justify-content: space-evenly</h1>
+    <div class="flexbox flexbox--justify-content-space-evenly">
+      <div class="flexbox__item">ようこそ</div>
+      <div class="flexbox__item">特集</div>
+      <div class="flexbox__item">製品一覧</div>
+      <div class="flexbox__item">事例</div>
+      <div class="flexbox__item">お知らせ</div>
+      <div class="flexbox__item">私たちについて</div>
+    </div>
+  </section>
+
+  <section>
+    <h1>align-content: center</h1>
+    <div class="flexbox flexbox--align-content-center flexbox--wrap h50">
+      <div class="flexbox__item w30">ようこそ</div>
+      <div class="flexbox__item w30">特集</div>
+      <div class="flexbox__item w30">製品一覧</div>
+      <div class="flexbox__item w30">事例</div>
+      <div class="flexbox__item w30">お知らせ</div>
+      <div class="flexbox__item w30">私たちについて</div>
+    </div>
+  </section>
+  <section>
+    <h1>align-content: space-between</h1>
+    <div class="flexbox flexbox--align-content-space-between flexbox--wrap h50">
+      <div class="flexbox__item w30">ようこそ</div>
+      <div class="flexbox__item w30">特集</div>
+      <div class="flexbox__item w30">製品一覧</div>
+      <div class="flexbox__item w30">事例</div>
+      <div class="flexbox__item w30">お知らせ</div>
+      <div class="flexbox__item w30">私たちについて</div>
+    </div>
+  </section>
+  <section>
+    <h1>align-content: space-around</h1>
+    <div class="flexbox flexbox--align-content-space-around flexbox--wrap h50">
+      <div class="flexbox__item w30">ようこそ</div>
+      <div class="flexbox__item w30">特集</div>
+      <div class="flexbox__item w30">製品一覧</div>
+      <div class="flexbox__item w30">事例</div>
+      <div class="flexbox__item w30">お知らせ</div>
+      <div class="flexbox__item w30">私たちについて</div>
+    </div>
+  </section>
+  <section>
+    <h1>align-content: space-evenly</h1>
+    <div class="flexbox flexbox--align-content-space-evenly flexbox--wrap h50">
+      <div class="flexbox__item w30">ようこそ</div>
+      <div class="flexbox__item w30">特集</div>
+      <div class="flexbox__item w30">製品一覧</div>
+      <div class="flexbox__item w30">事例</div>
+      <div class="flexbox__item w30">お知らせ</div>
+      <div class="flexbox__item w30">私たちについて</div>
+    </div>
+  </section>
+
+  <section>
+    <h1>align-items: center</h1>
+    <div class="flexbox flexbox--align-items-center h50">
+      <div class="flexbox__item">ようこそ</div>
+      <div class="flexbox__item">特集</div>
+      <div class="flexbox__item">製品一覧</div>
+      <div class="flexbox__item">事例</div>
+      <div class="flexbox__item">お知らせ</div>
+      <div class="flexbox__item">私たちについて</div>
+    </div>
+  </section>
+  <section>
+    <h1>align-items: flex-start</h1>
+    <div class="flexbox flexbox--align-items-start h50">
+      <div class="flexbox__item">ようこそ</div>
+      <div class="flexbox__item">特集</div>
+      <div class="flexbox__item">製品一覧</div>
+      <div class="flexbox__item">事例</div>
+      <div class="flexbox__item">お知らせ</div>
+      <div class="flexbox__item">私たちについて</div>
+    </div>
+  </section>
+  <section>
+    <h1>align-items: flex-end</h1>
+    <div class="flexbox flexbox--align-items-end h50">
+      <div class="flexbox__item">ようこそ</div>
+      <div class="flexbox__item">特集</div>
+      <div class="flexbox__item">製品一覧</div>
+      <div class="flexbox__item">事例</div>
+      <div class="flexbox__item">お知らせ</div>
+      <div class="flexbox__item">私たちについて</div>
+    </div>
+  </section>
+
+</body>
+
+</html>
